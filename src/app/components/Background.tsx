@@ -1,4 +1,4 @@
-import "./../bg_anim.css";
+import "./../css/bg_anim.css";
 
 export default function Background () {
     return (
