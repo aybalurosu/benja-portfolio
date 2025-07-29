@@ -5,7 +5,6 @@ export default function Navbar() {
       <div className="text-white text-3xl">LOGO</div>
       <ul className="flex items-center justify-center gap-7 p-4 bg-transparent text-gray-400">
         <li><a href="#about" className="hover:text-[#e2ecff] transition-all text-lg">About</a></li>
-        <li><a href="#skills" className="hover:text-[#e2ecff] transition-all text-lg">Skills</a></li>
         <li><a href="#projects" className="hover:text-[#e2ecff] transition-all text-lg">Projects</a></li>
         <li><a href="#experience" className="hover:text-[#e2ecff] transition-all text-lg">Experience</a></li>
         <li><a href="#contact" className="hover:text-[#e2ecff] text-lg">Contact</a></li>

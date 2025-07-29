@@ -24,28 +24,28 @@ export default function Projects() {
           </p>
         </div>
         <div className="grid grid-cols-2 gap-8 mt-10">
-          <div className="hover-card border-2 border-[#060d2512] border-t-[#a7cdede4] bg-[#0c143275] p-6 rounded-xl shadow-2xl h-90">
-            <div className="border-2 border-[#060f3043] border-t-[#7a8b9efb] bg-gradient-to-t from-[#44598d70] via-[#081a4b93] to-[#000c2b] p-6 rounded-lg shadow-2xl text-white w-130 h-75">
-              <h3 className="text-3xl font-semibold">JavaScript</h3>
-              <p className="">Proficient in modern JavaScript (ES6+).</p>
+          <div className="hover-card border-2 border-[#060d2524] border-t-[#a7cdede4] bg-[#0c14324b] p-6 rounded-xl shadow-3xl h-90">
+            <div className="border-2 border-[#060f3043] border-t-[#7a8b9efb] bg-gradient-to-t from-[#44598d70] via-[#081a4b93] to-[#000c2b] p-6 rounded-lg shadow-2xl text-white w-165 h-75">
+              <h3 className="text-3xl font-semibold">Project</h3>
+              <p className="">Proficient in modern Project .</p>
             </div>
           </div>
-          <div className="hover-card border-2 border-[#060d2512] border-t-[#a7cdede4] bg-[#0c143275] p-6 rounded-xl shadow-2xl h-90">
-            <div className="border-2 border-[#060f3043] border-t-[#7a8b9efb] bg-gradient-to-t from-[#44598d70] via-[#081a4b93] to-[#000c2b] p-6 rounded-lg shadow-2xl text-white w-130 h-75">
-              <h3 className="text-3xl font-semibold">JavaScript</h3>
-              <p className="">Proficient in modern JavaScript (ES6+).</p>
+          <div className="hover-card border-2 border-[#060d2524] border-t-[#a7cdede4] bg-[#0c14324b] p-6 rounded-xl shadow-3xl h-90">
+            <div className="bborder-2 border-[#060f3043] border-t-[#7a8b9efb] bg-gradient-to-t from-[#44598d70] via-[#081a4b93] to-[#000c2b] p-6 rounded-lg shadow-2xl text-white w-165 h-75">
+              <h3 className="text-3xl font-semibold">Project</h3>
+              <p className="">Proficient in modern Project.</p>
             </div>
           </div>
-          <div className="hover-card border-2 border-[#060d2512] border-t-[#a7cdede4] bg-[#0c143275] p-6 rounded-xl shadow-2xl h-90">
-            <div className="border-2 border-[#060f3043] border-t-[#7a8b9efb] bg-gradient-to-t from-[#44598d70] via-[#081a4b93] to-[#000c2b] p-6 rounded-lg shadow-2xl text-white w-130 h-75">
-              <h3 className="text-3xl font-semibold">JavaScript</h3>
-              <p className="">Proficient in modern JavaScript (ES6+).</p>
+          <div className="hover-card border-2 border-[#060d2524] border-t-[#a7cdede4] bg-[#0c14324b] p-6 rounded-xl shadow-3xl h-90">
+            <div className="bborder-2 border-[#060f3043] border-t-[#7a8b9efb] bg-gradient-to-t from-[#44598d70] via-[#081a4b93] to-[#000c2b] p-6 rounded-lg shadow-2xl text-white w-165 h-75">
+              <h3 className="text-3xl font-semibold">Project</h3>
+              <p className="">Proficient in modern Project .</p>
             </div>
           </div>
-          <div className="hover-card border-2 border-[#060d2512] border-t-[#a7cdede4] bg-[#0c143275] p-6 rounded-xl shadow-2xl h-90">
-            <div className="border-2 border-[#060f3043] border-t-[#7a8b9efb] bg-gradient-to-t from-[#44598d70] via-[#081a4b93] to-[#000c2b] p-6 rounded-lg shadow-2xl text-white w-130 h-75">
-              <h3 className="text-3xl font-semibold">JavaScript</h3>
-              <p className="">Proficient in modern JavaScript (ES6+).</p>
+          <div className="hover-card border-2 border-[#060d2524] border-t-[#a7cdede4] bg-[#0c14324b] p-6 rounded-xl shadow-3xl h-90">
+            <div className="bborder-2 border-[#060f3043] border-t-[#7a8b9efb] bg-gradient-to-t from-[#44598d70] via-[#081a4b93] to-[#000c2b] p-6 rounded-lg shadow-2xl text-white w-165 h-75">
+              <h3 className="text-3xl font-semibold">Project</h3>
+              <p className="">Proficient in modern Project .</p>
             </div>
           </div>
         </div>

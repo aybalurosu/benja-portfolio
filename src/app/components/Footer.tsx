@@ -5,8 +5,8 @@ export default function Footer() {
 
     return (
         <footer>
-            <div className="text-center text-white flex flex-col items-center justify-center p-5 w-full relative z-10">
-                <p className="text-lg mb-4">© {currentYear} Benjamin Porras Gómez. All rights reserved.</p>
+            <div className="text-start text-[#c0c3c8] flex flex-col items-center w-full relative z-10">
+                <p className="text-sm mb-4">© {currentYear} Benjamin Porras Gómez. All rights reserved.</p>
             </div>
         </footer>
     )

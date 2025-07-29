@@ -9,9 +9,6 @@ export default function LandingBox() {
           Helping startups and brands to craft expressive and engaging solutions
           for their software needs.
         </p>
-        <button className="bg-blue-900 text-white px-6 py-2 rounded hover:bg-blue-700 transition duration-300">
-          Contact
-        </button>
       </div>
     </section>
   );
