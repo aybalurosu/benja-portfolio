@@ -5,7 +5,6 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import LandingBox from "./components/LandingBox";
 import About from "./components/About";
-import Skills from "./components/Skills";
 import Experience from "./components/Experience";
 import Background from "./components/Background";
 import Projects from "./components/Projects";
@@ -23,9 +22,8 @@ export default function Home() {
         <LandingBox />
         <div className="min-h-screen relative z-10 bg-gradient-to-b from-[#01012565] to-[#3549922c] w-full max-w-screen">
           <About />
-          <Skills />
+          <Projects />
         </div>
-        <Projects />
         <Experience />
         <Contact />
       </main>
