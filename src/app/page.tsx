@@ -1,31 +1,41 @@
 import "./css/globals.css";
 
-import Image from "next/image";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import LandingBox from "./components/LandingBox";
 import About from "./components/About";
 import Experience from "./components/Experience";
-import Background from "./components/Background";
+import Lines from "./components/Lines";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
+import Skills from "./components/Skills";
 
 export default function Home() {
 
   return (
-    <div className="min-h-full">
-      <Background />
+    <div className="min-h-full bg-[rgb(3,7,18)]">
       <header>
         <Navbar />
       </header>
-      <main className="flex flex-col items-center justify-center">
-        <LandingBox />
-        <div className="min-h-screen relative z-10 bg-gradient-to-b from-[#01012565] to-[#3549922c] w-full max-w-screen">
+      <main>
+        <div className="flex flex-col items-center justify-center">
+          <Lines />
+          <LandingBox />
+        </div>
+        <Skills />
+        <div className="flex flex-col items-center justify-center">
           <About />
+        </div>
+        <div className="flex flex-col items-center justify-center">
           <Projects />
         </div>
-        <Experience />
-        <Contact />
+        <div className="flex flex-col items-center justify-center">
+          <Experience />
+        </div>
+        <div className="flex flex-col items-center justify-center">
+          <Lines />
+          <Contact />
+        </div>
       </main>
       <Footer />
     </div>

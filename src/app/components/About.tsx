@@ -1,11 +1,12 @@
 import Image from "next/image";
+import Lines from "./Lines";
 
 export default function About() {
   return (
-    <section id="about" className="min-h-screen flex items-center justify-center relative z-10">
+    <section id="about" className="min-h-screen flex flex-col items-center justify-center gap-15 relative z-10">
         <div className="inline-flex items-start justify-center gap-20">
             <Image className="rounded-3xl border-1 border-blue-950" src="/about/about.jpeg" alt="About Image" width={400} height={300} />
-            <div className="w-100 relative top-20">
+            <div className="w-100 top-20">
                 <h4 className="text-base font-semibold text-[#b5c1d0]">Benjamín Porras Gómez</h4>
                 <h1 className="text-8xl font-medium text-[#b5c0cc]">About</h1>
                 <div className="mt-7 text-[#bdbfc4] flex flex-col gap-4">

@@ -2,7 +2,7 @@ export default function Experience() {
   return (
     <section
       id="experience"
-      className="min-h-screen relative z-10 flex flex-col items-center justify-center gap-9 min-w-screen"
+      className="min-h-screen min-w-screen flex flex-col items-center justify-center gap-15 relative z-10"
     >
       <div className="w-[75%]">
         <h1 className="text-7xl font-medium mb-9 text-[#B5C0CC]">Experience</h1>

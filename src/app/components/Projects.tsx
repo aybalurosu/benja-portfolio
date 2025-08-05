@@ -5,7 +5,7 @@ export default function Projects() {
   return (
     <section
       id="projects"
-      className="min-h-screen relative z-10 flex flex-col items-center justify-center gap-9 p-10"
+      className="min-h-screen flex flex-col items-center justify-center gap-15 relative z-10"
     >
       <div className="w-[80%]">
         <div className="w-[50%]">
