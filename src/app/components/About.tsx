@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Lines from "./Lines";
+import BgGradient from "./BgGradient";
 
 export default function About() {
   return (

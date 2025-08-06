@@ -9,7 +9,6 @@ export default function Navbar() {
         <li><a href="#experience" className="hover:text-[#e2ecff] transition-all text-lg">Experience</a></li>
         <li><a href="#contact" className="hover:text-[#e2ecff] text-lg">Contact</a></li>
       </ul>
-      <div><button className="rounded-4xl bg-[#3f3fb8c3] p-3 text-white">Get In Touch</button></div>
     </nav>
   );
 }

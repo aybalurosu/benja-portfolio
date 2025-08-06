@@ -1,12 +1,14 @@
 import Image from "next/image";
 import "./../css/projects.css";
+import BgGradient from "./BgGradient";
 
 export default function Projects() {
   return (
     <section
       id="projects"
-      className="min-h-screen flex flex-col items-center justify-center gap-15 relative z-10"
+      className="min-h-screen flex flex-col items-center justify-center gap-15 relative z-20"
     >
+      <BgGradient />
       <div className="w-[80%]">
         <div className="w-[50%]">
           <h1 className="text-7xl font-medium mb-9 text-[#B5C0CC]">

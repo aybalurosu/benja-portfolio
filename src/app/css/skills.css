@@ -1,0 +1,20 @@
+.slider::before,
+.slider::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 400px;
+    pointer-events: none;
+    z-index: 2;
+}
+
+.slider::before {
+    left: 0;
+    background-image: linear-gradient(to right, rgba(2,3,15,1), rgba(0, 0, 0, 0));
+}
+
+.slider::after {
+    right: 0;
+    background-image: linear-gradient(to left, rgba(2,3,15,1), rgba(0, 0, 0, 0));
+}

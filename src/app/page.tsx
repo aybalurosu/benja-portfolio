@@ -13,7 +13,7 @@ import Skills from "./components/Skills";
 export default function Home() {
 
   return (
-    <div className="min-h-full bg-[rgb(3,7,18)]">
+    <div className="min-h-full bg-[rgb(2,3,15)]">
       <header>
         <Navbar />
       </header>

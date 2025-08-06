@@ -1,4 +1,5 @@
 "use client";
+import "./../css/skills.css";
 import useMeasure from "react-use-measure";
 import Card from "./Card";
 import { animate, motion, useMotionValue } from "framer-motion";
@@ -38,7 +39,7 @@ export default function Skills() {
     <section className="min-h-[200px] min-w-screen flex flex-col items-center justify-center relative z-10">
         <div className="slider overflow-hidden max-w-[1400px] relative">
         <motion.div
-            className="flex gap-30 w-max"
+            className="slider flex gap-30 w-max"
             ref={ref}
             style={{ x: xTranslation }}
         >
