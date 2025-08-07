@@ -36,8 +36,8 @@ export default function Skills() {
     return controls.stop;
   }, [width]);
   return (
-    <section className="min-h-[200px] min-w-screen flex flex-col items-center justify-center relative z-10">
-        <div className="slider overflow-hidden max-w-[1400px] relative">
+    <section className="min-h-[200px] flex flex-col items-center justify-center relative z-10">
+        <div className="slider overflow-hidden sm:max-w-screen md:max-w-screen lg:max-w-[1400px] relative">
         <motion.div
             className="slider flex gap-30 w-max"
             ref={ref}

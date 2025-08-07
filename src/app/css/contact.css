@@ -1,5 +1,8 @@
 
 .contact-box {
-    background-color: #33416c;
-    border: 1px solid #0c1738;
+    background-image: url('/contact/contact-bg.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid #c2ebf0;
+    box-shadow: 1px 10px 1px 10px none;
 }
