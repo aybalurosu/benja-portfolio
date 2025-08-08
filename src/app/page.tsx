@@ -10,6 +10,9 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Skills from "./components/Skills";
 
+import "./css/exp.css";
+
+
 export default function Home() {
 
   return (
@@ -18,7 +21,7 @@ export default function Home() {
         <Navbar />
       </header>
       <main>
-        <div className="flex flex-col items-center justify-center">
+        <div className="flex flex-col items-center justify-center exp-bg">
           <Lines />
           <LandingBox />
         </div>

@@ -9,7 +9,7 @@ const notoSans = Noto_Sans({ subsets: ['latin'], weight: ['300'] });
 export default function LandingBox() {
 
   return (
-    <section className="min-h-screen max-w-screen flex flex-col items-center justify-center gap-5 relative z-10">
+    <section className="min-h-screen min-w-screen flex flex-col items-center justify-center gap-5 relative z-10">
       <div className="absolute z-30 flex flex-col items-center justify-center">
         <div className="text-center flex flex-col items-center justify-center pt-0 pb-0 p-5 w-4xl">
           <motion.div

@@ -1,9 +1,10 @@
+import "./../css/exp.css";
 
 export default function Experience() {
   return (
     <section
       id="experience"
-      className="min-h-screen min-w-screen flex flex-col items-center justify-center gap-15 relative z-10"
+      className="min-h-screen min-w-screen flex flex-col items-center justify-center gap-15 relative z-10 exp-bg"
     >
       <div className="w-[75%] bg-[] border-0">
         <h1 className="text-7xl font-medium mb-9 text-[#B5C0CC]">Experience</h1>
