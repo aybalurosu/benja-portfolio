@@ -13,7 +13,7 @@ import Skills from "./components/Skills";
 export default function Home() {
 
   return (
-    <div className="min-h-full bg-[rgb(2,3,15)]">
+    <div className="min-h-full bg-[rgb(1,9,19)]">
       <header>
         <Navbar />
       </header>
@@ -21,9 +21,9 @@ export default function Home() {
         <div className="flex flex-col items-center justify-center">
           <Lines />
           <LandingBox />
-          <Skills />
         </div>
         <div className="flex flex-col items-center justify-center">
+          <Skills />
           <About />
         </div>
         <div className="flex flex-col items-center justify-center">

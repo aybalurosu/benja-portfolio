@@ -1,0 +1,24 @@
+.lines::before,
+.lines::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 200px;
+    pointer-events: none;
+    z-index: 2;
+}
+
+.lines::before {
+    top: 0;
+    background-image: linear-gradient(to bottom, rgba(1,9,19,1), rgba(0, 0, 0, 0));
+}
+
+.lines::after {
+    bottom: 0;
+    background-image: linear-gradient(to top, rgba(1,9,19,1), rgba(0, 0, 0, 0));
+}
+
+.css-blurry-gradient1, .css-blurry-gradient2 {
+    filter: blur(100px);
+}

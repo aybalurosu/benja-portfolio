@@ -3,6 +3,24 @@
     background-image: url('/contact/contact-bg.jpeg');
     background-repeat: no-repeat;
     background-position: center;
-    border: 1px solid #c2ebf0;
-    box-shadow: 1px 10px 1px 10px none;
+}
+
+/* mobile */
+@media screen and (min-width: 300px) and (max-width: 400px) {
+    .contact-box {
+        width: 30cqh;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 500px) {
+    .contact-box {
+        width: 370px;
+    }
+}
+
+/* tablet */
+@media screen and (min-width: 500px) and (max-width: 800px) {
+    .contact-box {
+        width: 300px;
+    }
 }

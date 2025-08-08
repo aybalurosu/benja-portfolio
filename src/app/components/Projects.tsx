@@ -1,6 +1,4 @@
-import Image from "next/image";
 import "./../css/projects.css";
-import BgGradient from "./BgGradient";
 
 export default function Projects() {
   return (
@@ -8,7 +6,6 @@ export default function Projects() {
       id="projects"
       className="min-h-screen flex flex-col items-center justify-center gap-15 relative z-20"
     >
-      <BgGradient />
       <div className="lg:w-[80%]">
         <div className="sm:w-[70%] md:w-[70%] lg:w-[50%]">
           <h1 className="sm:text-xl md:text-3xl lg:text-7xl font-medium mb-9 text-[#B5C0CC]">

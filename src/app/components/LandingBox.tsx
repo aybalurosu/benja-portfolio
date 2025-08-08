@@ -1,7 +1,6 @@
 'use client';
 import { Montserrat, Noto_Sans } from 'next/font/google';
 import { motion } from "framer-motion";
-import BgGradient from "./BgGradient";
 import Image from "next/image";
 
 const montserrat = Montserrat({ subsets: ['latin'], weight: ['500'] });
@@ -11,7 +10,6 @@ export default function LandingBox() {
 
   return (
     <section className="min-h-screen max-w-screen flex flex-col items-center justify-center gap-5 relative z-10">
-      <BgGradient />
       <div className="absolute z-30 flex flex-col items-center justify-center">
         <div className="text-center flex flex-col items-center justify-center pt-0 pb-0 p-5 w-4xl">
           <motion.div

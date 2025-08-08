@@ -11,10 +11,10 @@
 
 .slider::before {
     left: 0;
-    background-image: linear-gradient(to right, rgba(2,3,15,1), rgba(0, 0, 0, 0));
+    background-image: linear-gradient(to right, rgba(1,9,19,1), rgba(0, 0, 0, 0));
 }
 
 .slider::after {
     right: 0;
-    background-image: linear-gradient(to left, rgba(2,3,15,1), rgba(0, 0, 0, 0));
+    background-image: linear-gradient(to left, rgba(1,9,19,1), rgba(0, 0, 0, 0));
 }

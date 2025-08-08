@@ -5,7 +5,7 @@ export default function Experience() {
       id="experience"
       className="min-h-screen min-w-screen flex flex-col items-center justify-center gap-15 relative z-10"
     >
-      <div className="w-[75%]">
+      <div className="w-[75%] bg-[] border-0">
         <h1 className="text-7xl font-medium mb-9 text-[#B5C0CC]">Experience</h1>
         <div className="flex flex-col w-full">
           <div className="flex flex-row items-start justify-between gap-80 p-6 border-1 border-b-[#fff] border-transparent">
